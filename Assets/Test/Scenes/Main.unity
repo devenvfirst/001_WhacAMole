@@ -787,8 +787,6 @@ MonoBehaviour:
   gophersGo: {fileID: 1552775069972298, guid: 8da646b83b948d7428e74135d771583f, type: 2}
   timeTxt: {fileID: 1120696986}
   scoreTxt: {fileID: 1169209993}
-  posX: 0
-  posY: 0
   time: 30
 --- !u!114 &1940925762
 MonoBehaviour:
@@ -801,8 +799,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 11b341d7e1d18124288581e6204a5ba5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cursor_nromal: {fileID: 2800000, guid: 391eaef82c1a42b418435f8d70d18fbd, type: 3}
-  cursor_down: {fileID: 2800000, guid: 9ed0aa17177245144bc44a4a7eb96fb4, type: 3}
+  cursor_nromal: {fileID: 2800000, guid: 9ed0aa17177245144bc44a4a7eb96fb4, type: 3}
+  cursor_down: {fileID: 2800000, guid: 391eaef82c1a42b418435f8d70d18fbd, type: 3}
 --- !u!1 &1969676760
 GameObject:
   m_ObjectHideFlags: 0
