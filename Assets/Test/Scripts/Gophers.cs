@@ -41,6 +41,11 @@ public class Gophers : MonoBehaviour {
     /// </summary>
     private void OnDestroy()
     {
-        FindObjectOfType<GameManager>().holes[id].isAppear = false;
+        GameManager gm = FindObjectOfType<GameManager>();
+        GameManager.Hole[] holes = gm.holes;
+        if(holes[id] != null)
+        {
+            holes[id].isAppear = false;
+        }
     }
 }
